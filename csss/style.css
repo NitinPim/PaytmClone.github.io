@@ -371,13 +371,25 @@ input {
   padding: 10px 20px;
 }
 
+
+
 @media (max-width: 810px) {
-  .navbar ul li {
+  .navbar ul li a {
     padding: 1px;
+    font-size: 13px;
+  }
+  .rightchild{
+    font-size: 10px;
+  }
+  .rightchild h1{
+    font-size: 30px;
+  }
+  .rightchild p{
+    font-size: 15px;
   }
   .addss p {
     font-size: 15px;
-    padding-top: 60px;
+    padding-top: 65px;
     padding-bottom: 0px;
   }
   .bills .bills-main,
@@ -395,6 +407,13 @@ input {
   }
   .cardchild {
     flex-wrap: wrap;
+  }
+  .downloadsbtn{
+    display: block;
+  }
+  .downloadsbtn img{
+    height: 30%;
+    margin:5px 0px 0px 0px;
   }
 
   @media (max-width: 600px) {
