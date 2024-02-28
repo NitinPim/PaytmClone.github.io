@@ -172,10 +172,10 @@ a {
 .billcontainer:hover {
   background: #03b2e7;
 }
-.bills .bills-main,
+/* .bills .bills-main,
 .book .book-main {
   padding-left: 0px;
-}
+} */
 .billcontainer a img,
 .bookcontainer a img {
   width: 50%;
