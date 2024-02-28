@@ -381,6 +381,9 @@ input {
   .rightchild{
     font-size: 10px;
   }
+  .rightchild img{
+    width: 20%;
+  }
   .rightchild h1{
     font-size: 30px;
   }
@@ -394,12 +397,12 @@ input {
   }
   .bills .bills-main,
   .book .book-main {
-    padding-right: 5px;
-    padding-left: 5px;
-  }
+    padding: 0px 5px 2px 5px ;  
+    }
   .billdetails {
     flex-wrap: wrap;
     align-items: center;
+    font-size: 10px;
   }
   .details img {
     width: 40%;
