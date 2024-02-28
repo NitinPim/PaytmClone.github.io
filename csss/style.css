@@ -10,21 +10,18 @@ body {
   width: 100vw;
   height: 50vh;
   overflow-x: hidden;
-  
 }
 
-
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   width: 7px;
 }
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track {
   border-radius: 5px;
 }
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background:linear-gradient(0deg, #00baf2, #002e6e);
+  background: linear-gradient(0deg, #00baf2, #002e6e);
 }
-
 
 .navbar {
   background: #fff;
@@ -33,7 +30,7 @@ body::-webkit-scrollbar-thumb{
   box-shadow: 2px 1px 5px black;
   /* display: none; */
 }
-.paytmlogo{
+.paytmlogo {
   width: 180px;
 }
 .navbar ul {
@@ -75,7 +72,7 @@ a {
   color: #fff;
   border-radius: 50%;
   padding: 5px;
-  margin: 0px 1px 0px 4px ;
+  margin: 0px 1px 0px 4px;
 }
 .navbar ul li .btn-1:hover {
   background: darkblue;
@@ -150,7 +147,6 @@ a {
 }
 .bills {
   background: #00baf2;
-  
 }
 .bills .bills-main,
 .book .book-main {
@@ -177,10 +173,11 @@ a {
   background: #03b2e7;
 }
 .bills .bills-main,
-.book .book-main{
-  padding-left:0px ;
+.book .book-main {
+  padding-left: 0px;
 }
-.billcontainer a img, .bookcontainer a img{
+.billcontainer a img,
+.bookcontainer a img {
   width: 50%;
 }
 .billcontainer a,
@@ -252,84 +249,84 @@ a {
   width: 45%;
   padding-right: 20px;
 }
-.cards{
-  margin: 40px 0px 30px 30px ;
+.cards {
+  margin: 40px 0px 30px 30px;
 }
-.leftblock-2>h2, .rightblock-2>h2{
-  font-size: 40px ;
-  margin-bottom:30px ;
+.leftblock-2 > h2,
+.rightblock-2 > h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
   margin-left: 30px;
 }
-.leftblock-2>h4, .rightblock-2>h4{
+.leftblock-2 > h4,
+.rightblock-2 > h4 {
   font-size: 20px;
   margin-left: 30px;
 }
-.leftblock-2>p,span, .rightblock-2>p,span {
+.leftblock-2 > p,
+span,
+.rightblock-2 > p,
+span {
   font-size: 13px;
   margin-left: 30px;
 }
-.business-card{
+.business-card {
   margin: 100px 10px 100px 80px;
-
 }
-.business-card h1{
+.business-card h1 {
   font-size: 40px;
 }
-.cardchild{
+.cardchild {
   display: flex;
   justify-content: space-between;
-   margin: 0px 40px 50px 0px;
+  margin: 0px 40px 50px 0px;
 }
-.details{
+.details {
   margin: 10px;
 }
-.details img{
+.details img {
   width: 100%;
   margin-bottom: 40px;
-
 }
-.details h1{
+.details h1 {
   font-size: 27px;
   margin-bottom: 30px;
 }
-.details p{
+.details p {
   font-size: 19px;
   font-weight: 600;
 }
-.footer{
-  padding:40px 0px 40px 0px ;
+.footer {
+  padding: 40px 0px 40px 0px;
   background: lightgray;
 }
-.footer-first{
+.footer-first {
   /* background: red; */
   display: flex;
   justify-content: space-between;
   margin: 0px 50px 30px 50px;
 }
-.downloadsbtn{
+.downloadsbtn {
   display: flex;
 }
-.downloadsbtn img{
+.downloadsbtn img {
   margin-left: 10px;
 }
-.socialIcons{
+.socialIcons {
   display: flex;
 }
-.socialIcons a i{
+.socialIcons a i {
   font-size: 30px;
-  margin: 0px 5px ;
+  margin: 0px 5px;
   color: gray;
-  
 }
-
-
 
 .section {
   text-align: center;
   font-size: 18px;
 }
 .questions {
-  margin: 60px ;
+  margin: 60px;
   /* width: 100%; */
   max-width: 750px;
 }
@@ -374,40 +371,50 @@ input {
   padding: 10px 20px;
 }
 
-@media (max-width: 600px) {
-  body{
-    background: red;
+@media (max-width: 810px) {
+  .navbar ul li {
+    padding: 1px;
   }
-  .navbar{
-    font-size: 10px;
+  .addss p {
+    font-size: 15px;
+    padding-top: 60px;
+    padding-bottom: 0px;
   }
-  .paytmlogo{
-    width: 100%
-  }
-  .mobileimg{
-    width: 300px;
-  }
-  
-  .downloadsbtn{
-flex-direction: column;
-  }
-
-}
-@media (max-width:810px) {
-  .navbar ul li{
+  .bills .bills-main,
+  .book .book-main {
+    padding-right: 5px;
     padding-left: 5px;
   }
-  .addss p{
-    font-size: 15px;
+  .billdetails {
+    flex-wrap: wrap;
+    align-items: center;
   }
-  .billdetails{
+  .details img {
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  .cardchild {
     flex-wrap: wrap;
   }
-  .cardchild{
 
-    flex-wrap: wrap;
+  @media (max-width: 600px) {
+    body {
+      background: red;
+    }
+    .navbar {
+      font-size: 10px;
+    }
+    .paytmlogo {
+      width: 100%;
+    }
+    .mobileimg {
+      width: 300px;
+    }
+
+    .downloadsbtn {
+      flex-direction: column;
+    }
   }
-  
 }
 
 /* @media only screen and (min-width: 600px) {
@@ -415,18 +422,6 @@ flex-direction: column;
     width: 100vw;
   }
 } */
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* 
 
