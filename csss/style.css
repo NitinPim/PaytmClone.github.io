@@ -157,6 +157,7 @@ a {
 .book-main h1 {
   font-size: 35px;
   color: #fff;
+  padding-top: 60px;
 }
 .billdetails {
   display: flex;
